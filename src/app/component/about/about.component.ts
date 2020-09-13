@@ -6,7 +6,7 @@ import {Component, DoCheck, OnDestroy, OnInit} from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit, OnDestroy, DoCheck {
-  public isToggle = false;
+  public isAuthenticated = false;
   constructor() {
     console.log('constructor()');
   }
